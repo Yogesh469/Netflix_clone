@@ -43,26 +43,26 @@
 .nav-icon {
 
     height: 68px;
-    width:300px;
+    width: 300px;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     margin-left: 500px;
-    margin-right:50px;
+    margin-right: 50px;
     /* padding-left: 20px; */
 
 }
 
 .nav-search i {
     font-size: 25px;
-    
+
 }
 
 .nav-select {
     /* height:50px;
     width: 52px;; */
     display: flex;
-   
+
 }
 
 .profile {
@@ -71,25 +71,26 @@
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 5px;
- 
+
 
 }
-.dropdown{
+
+.dropdown {
     height: 20px;
-    width:20px;
+    width: 20px;
     background-color: #0d0d0d;
     border-style: none;
     margin-top: 5px;
 }
 
-.hero-section{
-    height:840px;
+.hero-section {
+    height: 840px;
     background-image: url("hero-section.jpg");
     background-size: cover;
 }
 
-.movie-name{
-    background-size:contain;
+.movie-name {
+    background-size: contain;
     background-repeat: no-repeat;
     height: 230px;
     width: 540px;
@@ -97,32 +98,107 @@
 
 }
 
-.hero-section{
+.hero-section {
     display: flex;
 
 }
 
-.box1{
-    height:300px;
+.box1 {
+    height: 200px;
     width: 540px;
+    margin-left: 70px;
+    margin-top: 115px;
+
+
 }
 
-.box1 .p{
-    background-color: #0d0d0d;
-    color: rgb(177, 20, 20);
-    font-size: 500px;
+.movie-explain {
+    /* background-color: #0d0d0d; */
+    color: white;
+    font-size: 19px;
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+.play {
+    height: 36px;
+    width: 100px;
+}
+
+.box2 {
+    height: 46px;
+    width:270px;
+    display: flex;
+    margin-top:30px;
+    justify-content: space-between;
+
 }
 
 
+.play {
+    height: 46px;
+    width: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-info {
+    height: 46px;
+    width: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(88, 89, 89,0.5) ;
+    
+    
+
+}
+
+.border{
+    border: 2px solid transparent;
+    border-radius:4px;
+
+}
 
 
+.play{
+  background-color: #ffffff;
 
+}
 
+.p-logo{
+    display: flex;
+   /* align-items: center; */
+   
+    
+ 
+    
+}
+.m-info{
+    display: flex;
+   
+}
 
+.pogo{
+    margin-left: 15px;
+    font-size:18px ;
+    color: #0d0d0d;
+    font-weight:bold;
+    
+}
+.pogo2{
+    margin-left:15px;
+    font-weight: bold;
+    margin-top: 5px;
+}
 
-
-
-
-
+.p-logo i{
+    color: #0d0d0d;
+    font-size :20px;
+}
+.m-info i{
+    font-size:30px;
+}
 
 
