@@ -6,6 +6,7 @@
     color: #ffffff;
     font-size: 15px;
 
+
 }
 
 .nav-bar {
@@ -241,6 +242,7 @@
     height: 700px;
     background-color: #141414;
      align-items:space-evenly;
+  
 
 }
 
@@ -248,7 +250,7 @@
     height: 130px;;
     display: flex;
     margin-left: 71px;
-    margin-top:100px;
+    /* margin-top:100px; */
     justify-content: space-evenly;
     width:100%;
     
@@ -259,8 +261,90 @@
     margin-left: 71px;
     justify-content:space-between;
     width: 100%;
-    margin-top:100px;
+    /* margin-top:100px; */
 
 }
+  
+.d1{
+    margin-top: 70px;;
+    margin-left: 80px;
+    height: 20px; 
+    width: 255px;
+   color:rgba(229, 229, 229, 1);
+   font-size:20px;
+   font-weight:bold;
+
+}
+
+
+/** preview**/
+/* ========== HOVER PREVIEW CARD STYLES ========== */
+.card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+    height: 200px;
+  transform: scale(1.6);
+  z-index: 10;
+}
+
+.card-content {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  opacity: 0;
+  transform: scale(0.95);
+  transition: all 0.5s ease-in-out;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover .card-content {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.card-content h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.card-content h3 span {
+  color: #00ff99;
+}
+
+.icons button {
+  margin: 10px 5px 0 0;
+  background: #333;
+  border: none;
+  border-radius: 50%;
+  padding: 6px;
+  color: white;
+  font-size: 16px;
+}
+
+/* .info, .tags {
+  font-size: 0.5em;
+  margin-top: 5px;
+  color: #ccc;
+} */
+
+/** movie-review**/
+
+.info .span{
+    font-size: 10px;
+
+}
+
+.movie-pre{
+    height:200px;
+}
+
 
 
