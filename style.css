@@ -239,7 +239,7 @@
 .movie-pannel{
     display:flex;
     flex-wrap: wrap;
-    height: 700px;
+    height:750px;
     background-color: #141414;
      align-items:space-evenly;
   
@@ -337,10 +337,12 @@
 
 /** movie-review**/
 
-.info .span{
+.card-content .info,
+.card-content .tags {
     font-size: 10px;
-
+    line-height: 1.2;
 }
+
 
 .movie-pre{
     height:200px;
